@@ -38,20 +38,6 @@ namespace GeneradorVersiones
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Conx github
-            ConexionGitHub();
-        }
-
-        private void ConexionGitHub()
-        {
-            //LoginController loginController = new LoginController();
-            //_userGitHub = loginController.LogInToGitHub();
-
-            //if (_userGitHub == null)
-            //    MessageBox.Show("Error conexión a GitHub", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //else
-            //    UpdateUsername(_userGitHub.User.ToString());
-
         }
 
         private void UpdateUsername(string username)
