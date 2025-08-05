@@ -38,6 +38,7 @@ namespace GeneradorVersiones
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            UpdateUsername(Environment.UserName);
         }
 
         private void UpdateUsername(string username)
